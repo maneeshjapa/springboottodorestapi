@@ -15,7 +15,7 @@ import java.util.Date;
 public class TodoItems {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int todoId;
 
     @Column(name = "notes", nullable = true)
